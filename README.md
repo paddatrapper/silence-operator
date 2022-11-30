@@ -1,3 +1,9 @@
+NOTE: Forked from https://github.com/giantswarm/silence-operator. Until they
+release the helm chart in a consumable way, this repo will need to be used for
+Flux to deploy the silence operator. This is due to the helm chart upstream
+including version tags that are intended to be replaced in a release pipeline,
+but not publishing the result.
+
 [![CircleCI](https://circleci.com/gh/giantswarm/silence-operator.svg?&style=shield)](https://circleci.com/gh/giantswarm/silence-operator)
 [![Docker Repository on Quay](https://quay.io/repository/giantswarm/silence-operator/status "Docker Repository on Quay")](https://quay.io/repository/giantswarm/silence-operator)
 
